@@ -9,17 +9,19 @@ import Blog from "./component/Blog/Blog"
 import Contact from "./component/Contact/Contact"
 import Footer from "./component/Footer"
 import "./App.css"
+import About from "./component/About/About"
 
 const App = () => {
   return (
     <>
       <Header />
       <Home />
-      <Features />
+      {/* <Features /> */}
       <Portfolio />
-      <Resume />
-      <Testimonial />
+      {/* <Resume /> */}
+      {/* <Testimonial /> */}
       <Blog />
+      <About/>
       <Contact />
       <Footer />
     </>

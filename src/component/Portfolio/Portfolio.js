@@ -10,12 +10,12 @@ const Portfolio = () => {
         <div className='container'>
           <div className='heading text-center '>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-            <h1>My Portfolio</h1>
+            <h1>My Projects</h1>
           </div>
 
           <div className='content grid'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} value={value} />
             })}
 
           </div>
