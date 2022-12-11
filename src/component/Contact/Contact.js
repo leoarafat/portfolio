@@ -1,8 +1,11 @@
 import React, { useRef } from "react";
 import contact1 from "./contact1.png";
 import emailjs from "@emailjs/browser";
+
+
 import "./Contact.css";
 import { toast } from "react-hot-toast";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Contact = () => {
   const form = useRef();
@@ -52,18 +55,21 @@ const Contact = () => {
                   </p>{" "}
                   <br />
                   <p>Phone: +8801303896556</p>
+                  
                   <p>Email: yeasinarafat1734.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className="button f_flex">
                     <a href="https://www.facebook.com/profile.php?id=100065181076417">
                       {" "}
-                      <button className="btn_shadow">Facebook</button>
+                      <button className="btn_shadow">
+                      Facebook
+                      </button>
                     </a>
-                    <a href="">
+                    <a href="#">
                       {" "}
                       <button className="btn_shadow">Twitter</button>
                     </a>
-                    <a href="">
+                    <a href="#">
                       {" "}
                       <button className="btn_shadow">Instagram</button>
                     </a>
